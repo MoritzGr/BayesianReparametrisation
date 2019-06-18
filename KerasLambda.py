@@ -27,15 +27,19 @@ inputs = tf.keras.layers.Input(shape=data_shape)
 flatten = tf.keras.layers.Flatten()(inputs)
 dense = tf.keras.layers.Dense(512, activation=tf.nn.relu)(flatten)
 
-locs = tf.keras.layers.Dense(units=10, name="means")(dense)
-scales = tf.keras.layers.Dense(units=10, name="std_devs",
-                               activation=tf.nn.softplus)(dense)
-repar = tf.keras.layers.Lambda(reparam, name="normal")([locs, scales])
-
 if reparametrisation:
+    
+    locs = tf.keras.layers.Dense(units=10, name="means")(dense)
+    
+    scales = tf.keras.layers.Dense(units=10, name="std_devs",
+                               activation=tf.nn.softplus)(dense)
+    
+    repar = tf.keras.layers.Lambda(reparam, name="normal")([locs, scales])
+    
     out_reparam = tf.keras.layers.Dense(10, name="out", activation=tf.nn.softmax)(repar)
 
     model_reparam = tf.keras.models.Model(inputs=inputs, outputs=out_reparam)
+    
     model_reparam.compile(optimizer='adam',
                           loss='categorical_crossentropy', metrics=['acc'])
 
