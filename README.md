@@ -10,8 +10,7 @@ REFERENCES:
 [1] Bayan Bruss, Jason Wittenbach, James Montgomery, and Capital One. 2018.
 Reasonable Doubt: Get Onto the Top 35 MNIST Leaderboard by Quantifying
 Aleatoric Uncertainty. (Dec. 2018). Retrieved June 15, 2019
-from https://medium.com/capital-one-tech/reasonable-doubt-get-onto-the-top-
-35-mnist-leaderboard-by-quantifying-aleatoric-uncertainty-a8503f134497
+from https://medium.com/capital-one-tech/reasonable-doubt-get-onto-the-top-35-mnist-leaderboard-by-quantifying-aleatoric-uncertainty-a8503f134497
 
 [2] John S Denker and Yann Lecun. 1991. Transforming neural-net output levels to
 probability distributions. In Advances in neural information processing systems.
@@ -38,9 +37,7 @@ arXiv preprint arXiv:1312.6114 (2013).
 Science & Business Media.
 
 [9] Tensorflow. 2016. Convolutional Neural Network Estimator for MNIST, built with
-tf.layers. (2016). Retrieved May 25 , 2019 from https://github.com/tensorflow/
-tensorflow/blob/master/tensorflow/examples/tutorials/layers/cnn_mnist.py
+tf.layers. (2016). Retrieved May 25 , 2019 from https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutorials/layers/cnn_mnist.py
 
 [10] Tensorflow. 2018. Get Started with TensorFlow. (2018). Retrieved May 25 , 2019
-from https://colab.research.google.com/github/tensorflow/docs/blob/master/site/
-en/tutorials/_index.ipynb
+from https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/_index.ipynb
