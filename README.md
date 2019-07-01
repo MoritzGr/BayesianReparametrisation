@@ -6,6 +6,7 @@ NonKeras.py - the first attempt at reproduction without Keras. It was not succes
 KerasLambda.py - the attempt at reproduction with Keras Lambda Layers. It is the basis for the results of the paper.
 
 REFERENCES:
+
 [1] Bayan Bruss, Jason Wittenbach, James Montgomery, and Capital One. 2018.
 Reasonable Doubt: Get Onto the Top 35 MNIST Leaderboard by Quantifying
 Aleatoric Uncertainty. (Dec. 2018). Retrieved June 15, 2019
